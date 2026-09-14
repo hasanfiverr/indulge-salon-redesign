@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Indulge Salon - York",
+  "image": "https://www.indulgesalon.com/wp-content/uploads/2020/01/indulge-salon.jpg",
+  "telephone": "+1-717-846-4424",
+  "faxNumber": "+1-717-846-1838",
+  "email": "info@indulgesalon.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "970 South George Street",
+    "addressLocality": "York",
+    "addressRegion": "PA",
+    "postalCode": "17403",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday"],"opens":"09:00","closes":"17:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday"],"opens":"09:00","closes":"21:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Friday"],"opens":"09:00","closes":"14:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday"],"opens":"08:00","closes":"15:00"}
+  ],
+  "url": "https://www.indulgesalon.com/",
+  "sameAs": [
+    "https://www.facebook.com/indulgecolorsalon",
+    "https://www.instagram.com/indulge_salon_york_pa/"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Indulge Salon - Greensboro",
+  "image": "https://www.indulgesalon.com/wp-content/uploads/2020/01/indulge-salon.jpg",
+  "telephone": "+1-706-999-9911",
+  "faxNumber": "+1-706-999-9912",
+  "email": "info@indulgesalon.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1104 Market Street",
+    "addressLocality": "Greensboro",
+    "addressRegion": "GA",
+    "postalCode": "30642",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday"],"opens":"09:00","closes":"20:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Wednesday"],"opens":"09:00","closes":"18:30"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Thursday","Friday"],"opens":"09:00","closes":"20:00"}
+  ],
+  "url": "https://www.indulgesalon.com/",
+  "sameAs": [
+    "https://www.facebook.com/indulgecolorsalon",
+    "https://www.instagram.com/indulge_salon_york_pa/"
+  ]
+}
